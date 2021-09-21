@@ -1,0 +1,90 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__row {
+  display: flex;
+}
+
+/* .app__button {
+  height: 100px;
+} */
+
+.app__topButton {
+  height: 100px;
+  width: 400px;
+  background-color: gray;
+  border: none;
+}
+
+.app__topButton:focus {
+  height: 100px;
+  width: 400px;
+  border: 10px solid rgb(102, 210, 243);
+  border-radius: 10px;
+  background-color: gray;
+}
+.app__bottomButton {
+  height: 100px;
+  width: 400px;
+  background-color: gray;
+  border: none;
+}
+
+.app__bottomButton:focus {
+  height: 100px;
+  width: 400px;
+  border: 10px solid rgb(102, 210, 243);
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.app__leftButton {
+  height: 400px;
+  width: 100px;
+  background-color: gray;
+  border: none;
+}
+
+.app__leftButton:focus {
+  height: 400px;
+  width: 100px;
+  border: 10px solid rgb(102, 210, 243);
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.app__rightButton {
+  height: 400px;
+  width: 100px;
+  background-color: gray;
+  border: none;
+}
+
+.app__rightButton:focus {
+  height: 400px;
+  width: 100px;
+  border: 10px solid rgb(102, 210, 243);
+  border-radius: 10px;
+  background-color: gray;
+}
+
+.app__container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+.app__containerBox {
+  position: absolute;
+  top: 175px;
+  right: 175px;
+  bottom: 175px;
+  left: 175px;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(218, 15, 190);
+  transition: top 2s, right 2s, left 2s, bottom 2s;
+}
